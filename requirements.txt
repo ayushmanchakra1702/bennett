@@ -1,0 +1,26 @@
+# Core ML and Data Handling Libraries
+numpy~=1.24.3
+scikit-learn~=1.3.0
+
+# Image Processing and Display
+Pillow~=10.0.0
+opencv-python~=4.8.0.76
+matplotlib~=3.8.2
+
+# PyTorch Libraries
+# IMPORTANT: Installing PyTorch with GPU support (CUDA) often requires specific commands
+# that depend on your OS and CUDA version. The lines below might install CPU-only versions.
+# ALWAYS check the official PyTorch website for the correct installation command:
+# https://pytorch.org/get-started/locally/
+# Example (DO NOT run directly, get from website):
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+torch~=2.6.0
+torchvision~=0.21.0
+# torchaudio # Often installed alongside torch/torchvision, uncomment if needed
+
+# Optional: For Kaggle API interaction (dataset download)
+kaggle
+tqdm~=4.65.0
+streamlit~=1.38.0
+
+typing_extensions
